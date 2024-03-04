@@ -1,0 +1,107 @@
+
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background: #d7d8e7c4;
+    color: #171841e0;
+    padding: 27px 0;
+}
+.logo {
+    width: 80px;
+    height: 60px;
+    margin-left: 5%;
+}
+.search_box {
+    width: 40%;
+    height: 60px;
+
+}
+.searchBar {
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+    border-radius: 15px;
+    width: 90%;
+}
+.search_icons {
+    width: 40px;
+    height: 25px;
+    margin: 0px 0 -9px -50px;
+}
+.menuDiv {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.manuList {
+    list-style-type: none;
+    font-size: 20px;
+}
+.cartValue {
+    margin: -48px 0 0 9px;
+    color: rgb(61, 64, 61);
+    font-size: 20px;
+}
+.menuBtn {
+    padding: 5px;
+    width: 70px;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #9191db;
+    color: #000;
+}
+.menuBtn:hover {
+    background-color: #4646e2;
+    color: #fff;
+}
+.menuIcon {
+    display: none;
+}
+.cartText {
+    margin-left: 38px;
+}
+
+
+@media screen and (max-width : 778px) {
+    .menuDiv{
+        display: none;
+    }
+    
+    .search_box {
+        width: 60%;
+        height: 60px;
+    
+    }
+
+    .menuIcon {
+        display: block;
+        margin-right: 3%;
+        position: relative;
+    }
+    .menuOuterDiv {
+       position: absolute;
+    }
+    .menuInnerDiv {
+        width: 300px;
+        margin: 10px 0 0 -247px;
+        background-color: #fff;
+    }
+    .menuDivItem {
+        font-size: 20px;
+    }
+
+    .menuDivItem :hover {
+        background-color: #2c2c8d;
+        color: #fff;
+        width: 100%;
+    }
+}

@@ -1,0 +1,219 @@
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background: #d7d8e7c4;
+    color: #171841e0;
+    padding-top: 30px;
+}
+
+.logo {
+    width: 80px;
+    height: 60px;
+    margin-left: 5%;
+}
+
+.search_box {
+    width: 40%;
+    height: 60px;
+
+}
+
+.searchBar {
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+    border-radius: 15px;
+    width: 90%;
+}
+
+.search_icons {
+    width: 40px;
+    height: 25px;
+    margin: 0px 0 -9px -50px;
+}
+
+.menuDiv {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.manuList {
+    list-style-type: none;
+    font-size: 20px;
+    position: relative
+}
+.cartValue {
+    margin: -48px 0 0 6px;
+    color: rgb(61, 64, 61);
+    font-size: 20px;
+}
+.cartText {
+    margin-left: 38px;
+}
+
+.menuIcon {
+    display: none;
+}
+
+.manuList1 {
+    list-style-type: none;
+    font-size: 20px;
+    position: relative
+}
+
+.profileImg {
+    width: 70px;
+    height: 66px;
+    position: relative;
+    border-radius: 37px;
+    margin-top: -18px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.profileOutDiv {
+    position: absolute;
+    width: 295px;
+    height: auto;
+    margin: 10px 0 0 -190px;
+    background-color: #d7d8e7c4;
+    display:none;
+}
+
+.profileInnDiv {
+    width: 100%;
+    height: 100%;
+}
+
+.menuList1:hover .profileOutDiv {
+    position: absolute;
+    width: 295px;
+    height: auto;
+    margin: 10px 0 0 -180px;
+    background-color: #d7d8e7c4;
+    display: flex;
+}
+
+.menuItem {
+    padding: 0;
+    background-color: #d7d8e7c4;;
+}
+.menuItem :hover {
+    background-color: rgb(149, 147, 165);
+    color: #fff;
+}
+.menuInnItem {
+    padding: 20px;
+}
+.item {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr {
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray
+}
+
+.menuSOuterDiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: end;
+}
+
+.menuSInnerDiv {
+    width: 200px;
+}
+@media screen and (max-width : 1580px){
+    .menuList1:hover .profileOutDiv {
+        position: absolute;
+        width: 295px;
+        height: auto;
+        margin: 10px 0 0 -190px;
+        background-color: #d7d8e7c4;
+        display: flex;
+    }
+}
+@media screen and (max-width : 1440px){
+    .menuList1:hover .profileOutDiv {
+        position: absolute;
+        width: 295px;
+        height: auto;
+        margin: 10px 0 0 -195px;
+        background-color: #d7d8e7c4;
+        display: flex;
+    }
+}
+
+@media screen and (max-width : 1200px){
+    .menuList1:hover .profileOutDiv {
+        position: absolute;
+        width: 295px;
+        height: auto;
+        margin: 10px 0 0 -200px;
+        background-color: #d7d8e7c4;
+        display: flex;
+    }
+}
+@media screen and (max-width : 9960px){
+    
+    .menuList1:hover .profileOutDiv {
+        position: absolute;
+        width: 295px;
+        height: auto;
+        margin: 10px 0 0 -210px;
+        background-color: #d7d8e7c4;
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width : 778px) {
+    .menuDiv {
+        width: 18%;
+    }
+    .manuList {
+        display: none;
+    }
+
+    .menuIcon {
+        display: block;
+        margin-right: 3%;
+    }
+
+    .search_box {
+        width: 60%;
+        height: 60px;
+
+    }
+    .menuList1:hover .profileOutDiv {
+        position: absolute;
+        width: 295px;
+        height: auto;
+        margin: 10px 0 0 -180px;
+        background-color: #d7d8e7c4;
+        display: flex;
+    }
+}
+@media screen and (max-width : 778px) {
+    .menuList1:hover .profileOutDiv {
+        position: absolute;
+        width: 295px;
+        height: auto;
+        margin: 10px 0 0 -195px;
+        background-color: #d7d8e7c4;
+        display: flex;
+    }
+}

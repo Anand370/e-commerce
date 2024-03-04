@@ -1,0 +1,122 @@
+.outDiv {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.outDiv1 {
+    width: 5%;
+    height: auto;
+}
+
+.outDiv2 {
+    width: 90%;
+    height: auto;
+    padding: 20px 5px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img {
+    width: 100%;
+    height: 300px;
+    background: cover;
+    position: static;
+    transition: 1s;
+}
+
+.mess {
+    position: absolute;
+    margin: -260px 0 0 83px;
+    width: 40%;
+    font-size: 19px;
+    color: #295f94;
+}
+
+.Btn {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: -52px;
+}
+
+.BtnNextDiv {
+    width: 100%;
+}
+
+.Btn button {
+    width: 70px;
+    height: 90px;
+    padding: 11px;
+    margin: 0 0px 0 0px;
+    position: relative;
+    border: none;
+    background: #fff;
+    color: #060660;
+
+}
+
+.Btn1 {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -52px;
+}
+
+.Btn1 button {
+    width: 70px;
+    height: 90px;
+    padding: 11px;
+    margin: 0 0px 0 0px;
+    position: relative;
+    border: none;
+    background: #fff;
+    color: #060660;
+
+}
+
+@media screen and (max-width : 1200px) {
+    .outDiv {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .mess {
+        position: absolute;
+        margin: -281px 0 0 20px;
+        width: 38%;
+        font-size: 19px;
+        color: #295f94;
+    }
+    .Btn button {
+        width: 50px;
+        height: 70px;
+        padding: 11px;
+        margin: 0 0px 0 0px;
+        position: relative;
+        border: none;
+        background: #fff;
+        color: #060660;
+    
+    }
+    .Btn1 button {
+        width: 50px;
+        height: 70px;
+        padding: 11px;
+        margin: 0 0px 0 0px;
+        position: relative;
+        border: none;
+        background: #fff;
+        color: #060660;
+    
+    }
+}

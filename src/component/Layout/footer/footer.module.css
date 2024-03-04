@@ -1,0 +1,32 @@
+
+.fOuterDiv {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background: #d7d8e7c4;
+    color: #171841e0;
+}
+.fInnerDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.fMenuItem {
+    width: 22%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.item {
+    margin: 10px 0;
+}
+.rightServed {
+    width: 100%;
+    margin: 20px 20px 10px 0;
+    display: flex;
+    justify-content: end;
+} 
+ .rightServed p{
+    font-size: 18px;
+    margin-right: 40px;
+}
